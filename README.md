@@ -14,10 +14,11 @@ Other languages:
 ## 目录
 
 <!-- vim-markdown-toc GFM -->
+
 * [空格](#空格)
     * [中英文之间需要增加空格](#中英文之间需要增加空格)
     * [中文与数字之间需要增加空格](#中文与数字之间需要增加空格)
-    * [数字与单位之间需要增加空格](#数字与单位之间需要增加空格)
+    * [数字与单位之间无需增加空格](#数字与单位之间无需增加空格)
     * [全角标点与其他字符之间不加空格](#全角标点与其他字符之间不加空格)
     * [`-ms-text-autospace` to the rescue?](#-ms-text-autospace-to-the-rescue)
 * [标点符号](#标点符号)
@@ -74,17 +75,17 @@ Other languages:
 
 > 今天出去买菜花了5000元。
 
-### 数字与单位之间需要增加空格
+### 数字与单位之间无需增加空格
 
 正确：
 
-> 我家的光纤入户宽带有 10 Gbps，SSD 一共有 20 TB。
+> 我家的光纤入户宽带有 10Gbps，SSD 一共有 10TB。
 
 错误：
 
-> 我家的光纤入户宽带有 10Gbps，SSD 一共有 10TB。
+> 我家的光纤入户宽带有 10 Gbps，SSD 一共有 20 TB。
 
-例外：度／百分比与数字之间不需要增加空格：
+另外，度／百分比与数字之间不需要增加空格：
 
 正确：
 
@@ -228,7 +229,7 @@ Microsoft 有个 [`-ms-text-autospace`](http://msdn.microsoft.com/en-us/library/
 
 ## 争议
 
-以下用法略带有个人色彩，既：无论是否遵循下述规则，从语法的角度来讲都是**正确**的。
+以下用法略带有个人色彩，即：无论是否遵循下述规则，从语法的角度来讲都是**正确**的。
 
 ### 链接之间增加空格
 
@@ -256,16 +257,17 @@ Microsoft 有个 [`-ms-text-autospace`](http://msdn.microsoft.com/en-us/library/
 
 ## 工具
 
-仓库 | 语言
---- | ---
-[vinta/paranoid-auto-spacing](https://github.com/vinta/paranoid-auto-spacing) | JavaScript
-[huei90/pangu.node](https://github.com/huei90/pangu.node) | Node.js
-[huacnlee/auto-correct](https://github.com/huacnlee/auto-correct) | Ruby
-[sparanoid/space-lover](https://github.com/sparanoid/space-lover) | PHP (WordPress)
-[nauxliu/auto-correct](https://github.com/NauxLiu/auto-correct) | PHP
-[hotoo/pangu.vim](https://github.com/hotoo/pangu.vim) | Vim
-[sparanoid/grunt-auto-spacing](https://github.com/sparanoid/grunt-auto-spacing) | Node.js (Grunt)
-[hjiang/scripts/add-space-between-latin-and-cjk](https://github.com/hjiang/scripts/blob/master/add-space-between-latin-and-cjk) | Python
+| 仓库                                                                                                                            | 语言            |
+|---------------------------------------------------------------------------------------------------------------------------------|-----------------|
+| [vinta/paranoid-auto-spacing](https://github.com/vinta/paranoid-auto-spacing)                                                   | JavaScript      |
+| [huei90/pangu.node](https://github.com/huei90/pangu.node)                                                                       | Node.js         |
+| [huacnlee/auto-correct](https://github.com/huacnlee/auto-correct)                                                               | Ruby            |
+| [sparanoid/space-lover](https://github.com/sparanoid/space-lover)                                                               | PHP (WordPress) |
+| [nauxliu/auto-correct](https://github.com/NauxLiu/auto-correct)                                                                 | PHP             |
+| [ricoa/copywriting-correct](https://github.com/ricoa/copywriting-correct)                                                       | PHP             |
+| [hotoo/pangu.vim](https://github.com/hotoo/pangu.vim)                                                                           | Vim             |
+| [sparanoid/grunt-auto-spacing](https://github.com/sparanoid/grunt-auto-spacing)                                                 | Node.js (Grunt) |
+| [hjiang/scripts/add-space-between-latin-and-cjk](https://github.com/hjiang/scripts/blob/master/add-space-between-latin-and-cjk) | Python          |
 
 ## 谁在这样做？
 
@@ -286,6 +288,7 @@ Microsoft 有个 [`-ms-text-autospace`](http://msdn.microsoft.com/en-us/library/
 [Ruby China](https://ruby-china.org/) | Yes | 标题达成
 [PHPHub](https://phphub.org/) | Yes | 标题达成
 [少数派](http://sspai.com/) | Yes | N/A
+[力扣 LeetCode](https://leetcode-cn.com/) | Yes | Yes
 
 ## 参考文献
 
